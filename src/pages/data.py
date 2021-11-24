@@ -6,7 +6,7 @@ from PIL import Image
 
 
 def main():
-    img = Image.open("assets/covid-19-4960246_640.jpg")
+    img = Image.open("assets/COVID.jpg")
     st.image(img)
     st.title("Data")
     date = datetime.today()
